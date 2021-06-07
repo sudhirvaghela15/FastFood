@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "05C9B311-91AF-49B6-B6DA-23D2F1E4A1A0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55090B8B-9896-4C6C-841D-9863AE3CD33E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/DashboardVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "276EACE1-A273-43D5-B80C-593B32C9D1CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/DashboardVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "addChildVcs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBD9FEDA-098B-4AA2-A1B0-EDE26812C739"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D26334E-DBB6-4F6E-B5EB-181900470C2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5D26334E-DBB6-4F6E-B5EB-181900470C2E - 51d5ffc5c937ecdd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.ibOfferCollection.getter : Swift.Optional&lt;__C.UICollectionView&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "5D26334E-DBB6-4F6E-B5EB-181900470C2E - 80697e0315da1cd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.ibOfferCollection.setter : Swift.Optional&lt;__C.UICollectionView&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "5D26334E-DBB6-4F6E-B5EB-181900470C2E - c9d477ea9e60998f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.ibOfferCollection.modify : Swift.Optional&lt;__C.UICollectionView&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "5D26334E-DBB6-4F6E-B5EB-181900470C2E - 31a3e2635d1ea578"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.ibOfferCollection.modify : Swift.Optional&lt;__C.UICollectionView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "5D26334E-DBB6-4F6E-B5EB-181900470C2E - cf31f75f44e4e5ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Fast_Food.HomeViewController"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "792">
+               </Location>
+               <Location
+                  uuid = "5D26334E-DBB6-4F6E-B5EB-181900470C2E - 326528e20373302b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Fast_Food.HomeViewController&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "768">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "371E1A3B-882C-4423-AA12-912C048454D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "371E1A3B-882C-4423-AA12-912C048454D1 - 6fab86c813650308"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.ibHotelListTable.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "371E1A3B-882C-4423-AA12-912C048454D1 - d6a91e0289aadf74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.ibHotelListTable.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "371E1A3B-882C-4423-AA12-912C048454D1 - 213886a05b78a333"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.ibHotelListTable.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "371E1A3B-882C-4423-AA12-912C048454D1 - 7044fbc606b01329"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.ibHotelListTable.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "371E1A3B-882C-4423-AA12-912C048454D1 - 8e9899c78066f7e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Fast_Food.HomeViewController"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "940">
+               </Location>
+               <Location
+                  uuid = "371E1A3B-882C-4423-AA12-912C048454D1 - 73cc467ac7f12226"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Fast_Food.HomeViewController&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/ViewControllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "916">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4DE0C76-EE08-464C-A0C9-8DD906A90204"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE97EE02-262F-482A-8BCA-2D2859D3720C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/Animation/MenuAnimation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "animateTransition(using:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF4F1492-02E6-4796-8D35-02AFB611EC73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "configureNavigationBar()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA881FCD-184B-4490-AA74-6C9337452050"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/TableVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "HotelDetails"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "FA881FCD-184B-4490-AA74-6C9337452050 - 8ba2d9865a72ca54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HotelDetails.init(image: Swift.Optional&lt;__C.UIImage&gt;, hotelNama: Swift.Optional&lt;Swift.String&gt;, hotelRating: Swift.Optional&lt;Swift.String&gt;, hotelType: Swift.Optional&lt;Swift.String&gt;, hotelAddress: Swift.Optional&lt;Swift.String&gt;) -&gt; Fast_Food.HotelDetails"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/TableVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "FA881FCD-184B-4490-AA74-6C9337452050 - 9ab412a002e597ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.HotelDetails.init() -&gt; Fast_Food.HotelDetails"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/TableVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC753E7B-A27D-475B-B469-0DE834593939"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/TableVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "FC753E7B-A27D-475B-B469-0DE834593939 - 1fffa491b15b1c4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.TableVc.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Fast_Food.TableVc"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/TableVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "FC753E7B-A27D-475B-B469-0DE834593939 - fa1bb07a3e9ed7e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.TableVc.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Fast_Food.TableVc"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/TableVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "FC753E7B-A27D-475B-B469-0DE834593939 - 1f83a6971f2aa8b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.TableVc.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Fast_Food.TableVc&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/TableVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "FC753E7B-A27D-475B-B469-0DE834593939 - 2958aeed58dfcaee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.TableVc.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Fast_Food.TableVc&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/TableVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "FC753E7B-A27D-475B-B469-0DE834593939 - 52fee1de1384c8b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.TableVc.__deallocating_deinit"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/TableVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E20069D-EE5C-4FD0-9FDC-3BBAC33DBA66"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/HomeTableCell/CellTableViewHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "CellTableViewHome"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8E20069D-EE5C-4FD0-9FDC-3BBAC33DBA66 - 72e48696631c081e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Fast_Food.CellTableViewHome"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "8E20069D-EE5C-4FD0-9FDC-3BBAC33DBA66 - 56415d8d1a0573c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Fast_Food.CellTableViewHome"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "8E20069D-EE5C-4FD0-9FDC-3BBAC33DBA66 - 7b37b44b84d94b4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Fast_Food.CellTableViewHome&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "8E20069D-EE5C-4FD0-9FDC-3BBAC33DBA66 - 4c450962306b0af3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Fast_Food.CellTableViewHome&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "8E20069D-EE5C-4FD0-9FDC-3BBAC33DBA66 - c963533028072ce6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.__deallocating_deinit"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "967A4ED5-4540-4528-A6C7-BF0779C92D42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/HomeTableCell/CellTableViewHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CellTableViewHome"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "967A4ED5-4540-4528-A6C7-BF0779C92D42 - fd92244051a60d25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelName.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "967A4ED5-4540-4528-A6C7-BF0779C92D42 - 3c99c69ed02c5911"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelName.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "967A4ED5-4540-4528-A6C7-BF0779C92D42 - 8f6c58d7ec8466f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelName.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "967A4ED5-4540-4528-A6C7-BF0779C92D42 - 80d0b07ae50d5c32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelName.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "967A4ED5-4540-4528-A6C7-BF0779C92D42 - 56415d8d1a0573a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Fast_Food.CellTableViewHome"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "967A4ED5-4540-4528-A6C7-BF0779C92D42 - 4c450962306b0a94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Fast_Food.CellTableViewHome&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D01703A4-DB41-49E9-9F58-859D8D1D18F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/HomeTableCell/CellTableViewHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "CellTableViewHome"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "D01703A4-DB41-49E9-9F58-859D8D1D18F3 - f2a22b2c5364cfa9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelRating.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "D01703A4-DB41-49E9-9F58-859D8D1D18F3 - f1c3b8aaae3f1ba5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelRating.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "D01703A4-DB41-49E9-9F58-859D8D1D18F3 - df6cf684673c2446"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelRating.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "D01703A4-DB41-49E9-9F58-859D8D1D18F3 - 56c0c04219a4e13e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelRating.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "D01703A4-DB41-49E9-9F58-859D8D1D18F3 - 56415d8d1a057381"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Fast_Food.CellTableViewHome"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "D01703A4-DB41-49E9-9F58-859D8D1D18F3 - 4c450962306b0ab5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Fast_Food.CellTableViewHome&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3768FD6-27AE-4115-8220-FE2FC4B83061"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/HomeTableCell/CellTableViewHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CellTableViewHome"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F3768FD6-27AE-4115-8220-FE2FC4B83061 - 44536ac247bc8d79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelImage.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "F3768FD6-27AE-4115-8220-FE2FC4B83061 - de12bea1b870d96d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelImage.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "F3768FD6-27AE-4115-8220-FE2FC4B83061 - fc30bbaa8df666c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelImage.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "F3768FD6-27AE-4115-8220-FE2FC4B83061 - 63d7b7140d27b357"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.hotelImage.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "F3768FD6-27AE-4115-8220-FE2FC4B83061 - 56415d8d1a0573c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Fast_Food.CellTableViewHome"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "F3768FD6-27AE-4115-8220-FE2FC4B83061 - 4c450962306b0af3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fast_Food.CellTableViewHome.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Fast_Food.CellTableViewHome&gt;"
+                  moduleName = "Fast_Food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sudhir/SUDHIR/IOS-Projects/Project/Fast_Food/Fast_Food/HomeTableCell/CellTableViewHome.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14626B5F-4734-4145-A97A-BE46A67A99D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/HomeTableCell/CellTableViewHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "CellTableViewHome"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80B5FB73-AD99-419D-AC7D-EFEFA22393DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/DashboardCell/CellTableViewHome.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F11F25A8-3464-4B4C-8790-38A71B6B6223"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/Dashboard/CartViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7A99F7F-D45D-49DB-8011-7E002F015731"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/Dashboard/CartViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "resizeView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "201ACC49-AA3B-44C4-A64B-7CEBE09C6910"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/ItemMenu/ItemMenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "383B9A43-718B-4407-9AE4-98AFB42F96CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ItemMenuCell/ItemMenuCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "117BEA44-2B3D-4F47-AFA0-13FF1711C5DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ItemMenuCell/ItemMenuCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2126BB68-FE9F-4D98-89AD-1652926329C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/main/ForgotPassVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "didTapVerify()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A88B09A0-0D01-46AD-8EBC-13AA9AF8E8AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/main/ForgotPassVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "didTapVerify()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13EFB01B-225C-4438-B9AF-4678AAC5983A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ExtraClasses/Alert.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "makeAlert(title:message:controller:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F20B2DF3-D22C-4DEE-A5E8-3B25A21A5658"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fast_Food/ViewControllers/main/SignUpWithEmail.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "didTapSignUp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
