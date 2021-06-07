@@ -62,11 +62,12 @@ class SignUpWithEmail: UIViewController {
 //                print(ibPassword.text!.count)
                 if !ibConfirmPassword.text!.isEmpty{
                     if ibPassword.text == ibConfirmPassword.text{
-                        userName = ibEmail.text
-                        password = ibConfirmPassword.text
+                        userName = ibEmail.text!
+                        password = ibConfirmPassword.text!
+                        
                         let vc = storyboard?.instantiateViewController(withIdentifier: "LoginVc")as! LoginVc
-                            vc.modalPresentationStyle = . fullScreen
-                            present(vc, animated: true)
+                        vc.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "clear"), style: .plain, target: self, action: #selector(tapNav))
+                        self.navigationController?.pushViewController(vc, animated: true)
                     }else{
                         Toast.makeToast(message: "Password Does not match", controller: self) }
                 }else{
@@ -75,6 +76,10 @@ class SignUpWithEmail: UIViewController {
                 Toast.makeToast(message: "Enter Password", controller: self) }
         }else{
             Toast.makeToast(message: "Eneter Email Address", controller: self) }
+    }
+    @objc func tapNav(){
+        
+        
     }
 }
 

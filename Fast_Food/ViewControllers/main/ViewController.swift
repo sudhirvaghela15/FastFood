@@ -7,8 +7,8 @@
 
 import UIKit
 
-var userName:String!
-var password:String!
+var userName:String = "a"
+var password:String = "s"
 
 class ViewController: UIViewController {
     var tap: UITapGestureRecognizer!
