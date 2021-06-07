@@ -64,6 +64,7 @@ class SignUpWithEmail: UIViewController {
                     if ibPassword.text == ibConfirmPassword.text{
                         userName = ibEmail.text
                         password = ibConfirmPassword.text
+                        debugPrint("\(userName) and \(password)")
                         let vc = storyboard?.instantiateViewController(withIdentifier: "LoginVc")as! LoginVc
                             vc.modalPresentationStyle = . fullScreen
                             present(vc, animated: true)
