@@ -78,7 +78,7 @@ class SignUpWithEmail: UIViewController {
             Toast.makeToast(message: "Eneter Email Address", controller: self) }
     }
     @objc func tapNav(){
-        
+        //code for back to first view 
         
     }
 }
