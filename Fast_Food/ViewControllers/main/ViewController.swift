@@ -7,8 +7,8 @@
 
 import UIKit
 
-var userName:String = "a"
-var password:String = "s"
+var userName:String = "sudhirvaghela15@gmail.com"
+var password:String = "sudhir"
 
 class ViewController: UIViewController {
     var tap: UITapGestureRecognizer!
@@ -131,7 +131,6 @@ extension ViewController{
     func tgPolicy(){
         
         tap = UITapGestureRecognizer(target: self, action: #selector(tapLblPolicy))
-        
         lblPolicy.isUserInteractionEnabled = true
         lblPolicy.addGestureRecognizer(tap)
     }
@@ -163,6 +162,5 @@ extension ViewController: AlertDelegate{
     
     func setCancelHandler() {
         self.resignFirstResponder()
-        
     }
 }

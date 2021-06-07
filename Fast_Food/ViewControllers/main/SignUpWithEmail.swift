@@ -24,6 +24,7 @@ class SignUpWithEmail: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         configureKeyboard()
+        
     }
 //    MARK: custom functions
     private func configureKeyboard(){
@@ -56,7 +57,7 @@ class SignUpWithEmail: UIViewController {
 //    MARK: SIGN UP BTN
     private func didTapSignUp(){
         
-        if  !ibEmail.text!.isEmpty{
+        if  ibEmail.text!.isValidEmail(){
 //            print(ibEmail.text!.count)
             if !ibPassword.text!.isEmpty{
 //                print(ibPassword.text!.count)
@@ -96,5 +97,22 @@ extension SignUpWithEmail: UITextFieldDelegate{
         }
         return true
     }
+//    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+//       
+//        if let text = textField.text,
+//           let textRange = Range(range, in: text) {
+//            _ = text.replacingCharacters(in: textRange, with: string)
+//                if textField == ibConfirmPassword {
+//                    if ibConfirmPassword.text!.count >= 2 {
+//                        ibSignUp.backgroundColor = UIColor.black
+//                        ibSignUp.isUserInteractionEnabled = true
+//                    }else{
+//                        ibSignUp.alpha = 4.0
+//                        ibSignUp.isUserInteractionEnabled = false
+//                    }
+//                }
+//            }
+//            return true
+//    }
     
 }

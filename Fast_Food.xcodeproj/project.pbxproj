@@ -19,7 +19,7 @@
 		BD550FB12664E754002420A7 /* CellTableViewHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD550FAF2664E754002420A7 /* CellTableViewHome.xib */; };
 		BD5C501B266CD8A3005F32D2 /* ToastLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C501A266CD8A3005F32D2 /* ToastLabel.swift */; };
 		BD5C501D266D039C005F32D2 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C501C266D039C005F32D2 /* Alert.swift */; };
-		BD5C501F266D52BA005F32D2 /* Ext_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C501E266D52BA005F32D2 /* Ext_String.swift */; };
+		BD5C501F266D52BA005F32D2 /* AuthenticationRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C501E266D52BA005F32D2 /* AuthenticationRegex.swift */; };
 		BD6969D826615E6D00AFA3F0 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6969D726615E6D00AFA3F0 /* CartViewController.swift */; };
 		BD96E9A5265F6B690015DF3B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96E9A4265F6B690015DF3B /* MenuViewController.swift */; };
 		BD96E9A8265FA4930015DF3B /* MenuAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96E9A7265FA4930015DF3B /* MenuAnimation.swift */; };
@@ -80,7 +80,7 @@
 		BD550FAF2664E754002420A7 /* CellTableViewHome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableViewHome.xib; sourceTree = "<group>"; };
 		BD5C501A266CD8A3005F32D2 /* ToastLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastLabel.swift; sourceTree = "<group>"; };
 		BD5C501C266D039C005F32D2 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		BD5C501E266D52BA005F32D2 /* Ext_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext_String.swift; sourceTree = "<group>"; };
+		BD5C501E266D52BA005F32D2 /* AuthenticationRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRegex.swift; sourceTree = "<group>"; };
 		BD6969D726615E6D00AFA3F0 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		BD96E9A4265F6B690015DF3B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		BD96E9A7265FA4930015DF3B /* MenuAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAnimation.swift; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 			children = (
 				BDAA57092653A70B00AA0CE4 /* Ext_Textfield.swift */,
 				BDCE417E265638FB001AFEDE /* Ext_NavigationBar.swift */,
-				BD5C501E266D52BA005F32D2 /* Ext_String.swift */,
+				BD5C501E266D52BA005F32D2 /* AuthenticationRegex.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -501,7 +501,7 @@
 				BDCE417F265638FB001AFEDE /* Ext_NavigationBar.swift in Sources */,
 				BDADE89A2669E4E700F46568 /* CategorieItems.swift in Sources */,
 				BD96E9A5265F6B690015DF3B /* MenuViewController.swift in Sources */,
-				BD5C501F266D52BA005F32D2 /* Ext_String.swift in Sources */,
+				BD5C501F266D52BA005F32D2 /* AuthenticationRegex.swift in Sources */,
 				BDFBD631265512F900515313 /* HomeViewController.swift in Sources */,
 				BDAA570A2653A70B00AA0CE4 /* Ext_Textfield.swift in Sources */,
 				BDE666EF2666A7F7005A9E30 /* ItemMenuCell.swift in Sources */,
