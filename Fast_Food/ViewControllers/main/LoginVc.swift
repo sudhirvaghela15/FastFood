@@ -53,10 +53,13 @@ class LoginVc: UIViewController {
             if ibLoginEmail.text == userName{
                 if !ibLoginPassword.text!.isEmpty {
                     if ibLoginPassword.text == password {
-//                        let sb = UIStoryboard(name: "Home", bundle: nil)
-//                        let vc = sb.instantiateViewController(identifier: "HomeViewController")as! HomeViewController
+                        
+                        
+                        let sb = UIStoryboard(name: "Home", bundle: nil)
+                        let vc = sb.instantiateViewController(identifier: "HomeViewController")as! HomeViewController
 //                        let nv = UINavigationController(rootViewController: vc)
-//                        self.navigationController?.pushViewController(nv, animated: true)
+                        self.navigationController?.pushViewController(vc, animated: true)
+                    
                         Toast.makeToast(message: "Login", controller: self)
                     }else{ Toast.makeToast(message: "Enter Valid Details", controller: self) }
                 }else{ Toast.makeToast(message: "Enter Password", controller: self) }
