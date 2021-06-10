@@ -1044,8 +1044,8 @@
             filePath = "Fast_Food/ViewControllers/main/SignUpWithEmail.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "didTapSignUp()"
             landmarkType = "7">
          </BreakpointContent>

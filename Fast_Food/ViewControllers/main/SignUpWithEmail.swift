@@ -23,6 +23,8 @@ class SignUpWithEmail: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+        navigationController?.hidesBarsOnSwipe = false
         configureKeyboard()
         
     }
@@ -67,7 +69,12 @@ class SignUpWithEmail: UIViewController {
                         password = ibConfirmPassword.text!
                         
                         let vc = storyboard?.instantiateViewController(withIdentifier: "LoginVc")as! LoginVc
-                        vc.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "clear"), style: .plain, target: self, action: #selector(tapNav))
+                        vc.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .close, target: self, action: #selector(tapNav))
+                        
+                        
+                        navigationController?.setNavigationBarHidden(true, animated: true)
+                        navigationController?.hidesBarsOnSwipe = true
+                        
                         self.navigationController?.pushViewController(vc, animated: true)
                     }else{
                         Toast.makeToast(message: "Password Does not match", controller: self) }
@@ -79,8 +86,8 @@ class SignUpWithEmail: UIViewController {
             Toast.makeToast(message: "Eneter Email Address", controller: self) }
     }
     @objc func tapNav(){
-        //code for back to first view 
-        
+        //code for back to first view
+
     }
 }
 
