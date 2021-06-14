@@ -50,11 +50,9 @@ class LoginVc: UIViewController {
     private func _Login(){
         
         if !ibLoginEmail.text!.isEmpty {
-            if ibLoginEmail.text == userName{
+//            if ibLoginEmail.text == userName{
                 if !ibLoginPassword.text!.isEmpty {
-                    if ibLoginPassword.text == password {
-                        
-                        
+                    if ibLoginEmail.text == userName || ibLoginPassword.text == password {
                         let sb = UIStoryboard(name: "Home", bundle: nil)
                         let vc = sb.instantiateViewController(identifier: "HomeViewController")as! HomeViewController
 //                        let nv = UINavigationController(rootViewController: vc)
@@ -62,7 +60,7 @@ class LoginVc: UIViewController {
                         Toast.makeToast(message: "Login", controller: self)
                     }else{ Toast.makeToast(message: "Enter Valid Details", controller: self) }
                 }else{ Toast.makeToast(message: "Enter Password", controller: self) }
-            }else{ Toast.makeToast(message: "UsetName Not Match", controller: self)}
+//            }else{ Toast.makeToast(message: "UsetName Not Match", controller: self)}
         }else{ Toast.makeToast(message: "Enter UserName", controller: self) }
     }
 }

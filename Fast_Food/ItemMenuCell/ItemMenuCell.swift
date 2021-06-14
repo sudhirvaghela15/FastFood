@@ -6,9 +6,22 @@
 //
 
 import UIKit
+
+protocol ItemCellDelegate:AnyObject {
+   
+    func itemClicked(
+        collectionView: UICollectionView,
+        didSelectItemAt indexPath: IndexPath
+    )
+}
+
+
 class ItemMenuCell: UITableViewCell {
     
     @IBOutlet weak var subCollectionView: UICollectionView!
+    
+    weak var delegate:ItemCellDelegate?  //delegate
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -59,13 +72,24 @@ extension ItemMenuCell:UICollectionViewDelegate, UICollectionViewDataSource,UICo
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.row)
-        print(catagoriesItem[subCollectionView.tag].itemSubName[indexPath.row])
+        
+//        print("h:\(indexPath.row)")
+//     print("h:\(catagoriesItem[subCollectionView.tag].itemSubName[indexPath.row])")
+       
+//    set delegate from itemMenu tableview
+        delegate?.itemClicked(
+            collectionView: collectionView,
+            didSelectItemAt: indexPath
+        )
+//        addSubview(vc.view)
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
     
         return CGSize(width: (subCollectionView.frame.size.width - 10) / 2, height: (subCollectionView.frame.size.height - 10) / 2)
     }
+    
+    
     
 }

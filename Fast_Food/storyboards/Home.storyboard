@@ -169,7 +169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lcy-MG-ogV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1489.8550724637682" y="-1825.4464285714284"/>
+            <point key="canvasLocation" x="1490" y="-1828"/>
         </scene>
         <!--Account View Controller-->
         <scene sceneID="iFz-zC-MYG">
@@ -461,7 +461,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I23-Ca-bkd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2160.8695652173915" y="-1179.2410714285713"/>
+            <point key="canvasLocation" x="2136" y="-1179"/>
+        </scene>
+        <!--Buy ItemVC-->
+        <scene sceneID="q0C-Nd-Cps">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hy9-Cj-zZp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="BuyItemVC" id="gjB-Jv-iKS" customClass="BuyItemVC" customModule="Fast_Food" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OaV-Ku-lQI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Ww-sv-SZa">
+                                <rect key="frame" x="87" y="158" width="240" height="272"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="eQX-9I-SoI">
+                                <rect key="frame" x="0.0" y="822" width="414" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZX-st-Q1J">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="60"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77P-kz-HMA">
+                                        <rect key="frame" x="207" y="0.0" width="207" height="60"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eQX-9I-SoI" secondAttribute="height" multiplier="69:10" id="SHc-Ve-aSp"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oWj-ea-rg9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oWj-ea-rg9" firstAttribute="trailing" secondItem="0Ww-sv-SZa" secondAttribute="trailing" constant="87" id="4dj-Nh-xbN"/>
+                            <constraint firstItem="eQX-9I-SoI" firstAttribute="leading" secondItem="oWj-ea-rg9" secondAttribute="leading" id="Sfw-Wf-d0f"/>
+                            <constraint firstItem="oWj-ea-rg9" firstAttribute="trailing" secondItem="eQX-9I-SoI" secondAttribute="trailing" id="XD6-xp-f3m"/>
+                            <constraint firstItem="eQX-9I-SoI" firstAttribute="top" secondItem="0Ww-sv-SZa" secondAttribute="bottom" constant="392" id="aKQ-L9-bkl"/>
+                            <constraint firstItem="0Ww-sv-SZa" firstAttribute="top" secondItem="oWj-ea-rg9" secondAttribute="top" constant="114" id="kkO-5n-lda"/>
+                            <constraint firstItem="0Ww-sv-SZa" firstAttribute="leading" secondItem="oWj-ea-rg9" secondAttribute="leading" constant="87" id="xgf-rE-ndo"/>
+                            <constraint firstItem="eQX-9I-SoI" firstAttribute="bottom" secondItem="oWj-ea-rg9" secondAttribute="bottom" constant="20" id="yUc-tb-4eG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buyBtn" destination="77P-kz-HMA" id="Ddd-YU-ziR"/>
+                        <outlet property="cardBtn" destination="PZX-st-Q1J" id="q5L-9W-gAj"/>
+                        <outlet property="imgHolder" destination="0Ww-sv-SZa" id="82g-AB-q1B"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2768" y="-1179"/>
         </scene>
     </scenes>
     <resources>

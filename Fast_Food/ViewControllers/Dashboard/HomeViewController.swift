@@ -96,11 +96,12 @@ class HomeViewController: UIViewController {
     
     private func setArrayHotelList(){
         
-        hotelDetails.append(HotelDetails(image: UIImage(named: "HotelMadhuri"), hotelNama: "Hotel Madhuri",hotelType: "Veg",hotelAddress: "2-A,Balash,\nDholka-382225"))
+        hotelDetails.append(HotelDetails(image: UIImage(named: "HotelMadhuri"), hotelNama: "Pradhyum",hotelType: "Veg",hotelAddress: "2-A,Balash,\nDholka-382225"))
         
-        hotelDetails.append(HotelDetails(image: UIImage(named: "HotelMadhuri"), hotelNama: "Madina", hotelRating: "5.0", hotelType: "NonVeg", hotelAddress: "23-S,Vejalpur,\nDholka-382225"))
+        hotelDetails.append(HotelDetails(image: UIImage(named: "Hotel_sarover_portico"), hotelNama: "Shree Nath", hotelRating: "5.0", hotelType: "Veg", hotelAddress: "23-S,Dholka-kheda Road,\nDholka-382225"))
         
-        hotelDetails.append(HotelDetails(image: UIImage(named: "HotelMadhuri"), hotelNama: "Nurani", hotelRating: "5.0", hotelType: "NonVeg", hotelAddress: "32-S,Kalikund,\nDholka-382225"))
+        hotelDetails.append(HotelDetails(image: UIImage(named: "amrutfalhotelandrestaurant"), hotelNama: "Punjabi Tadka", hotelRating: "5.0", hotelType: "Veg", hotelAddress: "32-S,Kalikund,\nDholka-382225"))
+        hotelDetails.append(HotelDetails(image: UIImage(named: "cherries_restaurant"), hotelNama: "cherries_restaurant Tadka", hotelRating: "5.0", hotelType: "Veg", hotelAddress: "32-S,Kalikund,\nDholka-382225"))
         }
 }
 //MARK: CollectionView
@@ -149,12 +150,13 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-            print(indexPath)
+            print("home: \(indexPath)")
             let obj = hotelDetails[indexPath.row]
                 
             let vc = storyboard?.instantiateViewController(withIdentifier: "ItemMenuViewController")as! ItemMenuViewController
                 vc.title  = obj.hotelNama
             self.navigationController?.pushViewController(vc, animated: true)
+        
     }
 }
 // MARK: transitionDelegaate

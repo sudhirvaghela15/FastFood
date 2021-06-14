@@ -71,7 +71,6 @@ class SignUpWithEmail: UIViewController {
                         let vc = storyboard?.instantiateViewController(withIdentifier: "LoginVc")as! LoginVc
                         vc.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .close, target: self, action: #selector(tapNav))
                         
-                        
                         navigationController?.setNavigationBarHidden(true, animated: true)
                         navigationController?.hidesBarsOnSwipe = true
                         

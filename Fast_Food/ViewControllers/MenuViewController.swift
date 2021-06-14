@@ -18,11 +18,11 @@ class MenuViewController: UIViewController{
     
 
     enum MenuOption: String,CaseIterable{
-        case home      = "Home"
-        case account   = "Account"
-        case order     = "Your Order"
+        case home         = "Home"
+        case account      = "Account"
+        case order        = "Your Order"
         case yourFavList  = "Your Fav List"
-        case logout    = "Logout"
+        case logout       = "Logout"
         
         var imageName: String{
             switch self{

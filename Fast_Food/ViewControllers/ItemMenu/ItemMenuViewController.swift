@@ -9,7 +9,7 @@ import UIKit
 
 class ItemMenuViewController: UIViewController {
     
-    
+   
     @IBOutlet weak var customTableView: UITableView!
     
     override func viewDidLoad() {
@@ -46,7 +46,7 @@ extension ItemMenuViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)as! ItemMenuCell
-        
+        cell.delegate = self
         cell.subCollectionView.tag = indexPath.section
         return cell
     }
@@ -55,5 +55,29 @@ extension ItemMenuViewController: UITableViewDelegate, UITableViewDataSource{
         view.layer.cornerRadius = 10
         view.tintColor = .orange
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        Toast.makeToast(message: "Hello From itemTable", controller: self)
+    }
     
+}
+
+// MARK : item cell delegate
+
+//it's handle Collection View didSelectItemAt Index and navigate to next view controller
+extension ItemMenuViewController: ItemCellDelegate{
+    
+    func itemClicked(collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        print("item index :\(indexPath.row)")
+        print("item name :\(catagoriesItem[collectionView.tag].itemSubName[indexPath.row]),tag: \(collectionView.tag)")
+        
+        let sb = UIStoryboard(name: "Home", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "BuyItemVC")as! BuyItemVC
+        
+        vc.title = catagoriesItem[collectionView.tag].itemSubName[indexPath.row]
+        
+        vc.image = UIImage(named: catagoriesItem[collectionView.tag].itemSubImage[indexPath.row])
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
