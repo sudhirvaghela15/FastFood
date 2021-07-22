@@ -14,6 +14,8 @@ class OrderViewController: UIViewController {
 
   
     }
-   
+    deinit {
+        print("deint Order view")
+    }
 
 }

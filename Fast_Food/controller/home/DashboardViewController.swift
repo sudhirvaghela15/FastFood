@@ -35,9 +35,16 @@ class DashboardViewController: UIViewController {
         setArrayHotelList()
         configureNavigationBar()
         configureCustomCell()
-        sideBar.delegate  = self  //sideBar
+        sideBar.delegate  = self  //sideBar Table delegate
         
+        transition.tapGesture = {
+            self.sideBar.dismiss(animated: true, completion: nil)
+            print("remove sidebar")
+        }
     }
+    
+    
+    
     private func configureCustomCell(){
         
         ibHotelListTable.register(
@@ -77,8 +84,8 @@ class DashboardViewController: UIViewController {
     }
     @objc
     func didTapSideBarMenuBtn(){
-        sideBar.modalPresentationStyle          = .overCurrentContext
-        sideBar.transitioningDelegate           = self
+        sideBar.modalPresentationStyle  = .overCurrentContext
+        sideBar.transitioningDelegate   = self
         present(sideBar, animated: true)
     }
     @objc
@@ -219,37 +226,44 @@ extension DashboardViewController :
     }
 }
 
-//MARK: SideBarMenu Viewcontroller  delegate
+//MARK: SideBarMenu Viewcontroller delegate
 extension DashboardViewController:
     SideBarViewControllerDelegate{
+    
     func didTapMenu(MenuOption: SideBarMenuOption) {
         //set navBar title
         navigationItem.title = MenuOption.rawValue
         topView?.removeFromSuperview()
         
+        guard
+              let account = storyboard?.instantiateViewController(withIdentifier: "AccountViewController")as? AccountViewController ,
+              let review =
+                storyboard?.instantiateViewController(withIdentifier: "OrderViewController")as? OrderViewController ,
+              let settings = storyboard?.instantiateViewController(withIdentifier: "MyFavListViewController")as? MyFavListViewController
+              else{
+            
+            fatalError()
+        }
+        
     switch MenuOption {
         case .home:
-            
 //           print("home")
             topView = nil
-            
+           
         case .account:
-//            print("accout")
-           let account = storyboard?.instantiateViewController(withIdentifier: "AccountViewController")as! AccountViewController
+            print("accout")
+         
             addChild(account)
             topView = account.view
-            
+//            topView?.removeFromSuperview()
+//            account?.removeFromParent()
         case .order:
 //            print("Your Orders")
-            
-            let review = storyboard?.instantiateViewController(withIdentifier: "OrderViewController")as! OrderViewController
-//            view.addSubview(review.view)
             topView = review.view
             
         case .yourFavList:
 //            print("YouFavList")
-            let settings = storyboard?.instantiateViewController(withIdentifier: "MyFavListViewController")as! MyFavListViewController
-//            view.addSubview(settings.view)
+
             topView = settings.view
             
         case .logout:

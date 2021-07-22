@@ -30,6 +30,9 @@ class CartViewController: UIViewController {
     private func resizeView(){
         
     }
+    deinit {
+        print("deint cart view")
+    }
 }
 
 

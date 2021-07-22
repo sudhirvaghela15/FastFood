@@ -72,6 +72,7 @@ extension SideBarViewController:
     }
     //delegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
         dismiss(animated: true, completion: nil)
 //        let obj = SideBarMenuOption.allCases[indexPath.row]
         delegate?.didTapMenu(

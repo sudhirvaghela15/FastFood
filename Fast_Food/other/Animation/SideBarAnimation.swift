@@ -7,10 +7,11 @@
 
 import UIKit
 
-class SideBarAnimation: NSObject, UIViewControllerAnimatedTransitioning {
+class SideBarAnimation:NSObject,UIViewControllerAnimatedTransitioning {
     
     var isPresenting = false
     let dimmingView = UIView()
+    var tapGesture:(()->Void)?
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.5
@@ -20,7 +21,7 @@ class SideBarAnimation: NSObject, UIViewControllerAnimatedTransitioning {
         
       guard  let to    = transitionContext.viewController(forKey: .to),
              let from  = transitionContext.viewController(forKey: .from) else { return }
-
+    
         let containerView = transitionContext.containerView
         let finalWidth    = Int(containerView.bounds.width * 0.6)
         let finalHight    = Int(to.view.bounds.height)
@@ -60,14 +61,14 @@ class SideBarAnimation: NSObject, UIViewControllerAnimatedTransitioning {
         
         UIView.animate(withDuration: duration, animations: { [self] in
             isPresenting ? transform() : identity()
-        }) { (_) in
+        }) {  _  in
             transitionContext.completeTransition(!isCancelled)
         }
-        
     }
     
     @objc
     func didTap(){
-        print("remove sidebar")
+        
+        tapGesture?()
     }
 }
