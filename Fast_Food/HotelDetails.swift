@@ -8,12 +8,11 @@
 import UIKit
 
 struct HotelDetails {
-    var image       :UIImage!
-    var hotelNama   :String!
-    var hotelRating :String!
-   
-    var hotelType   :String!
-    var hotelAddress:String!
+    var image        :UIImage!
+    var hotelNama    :String!
+    var hotelRating  :String!
+    var hotelType    :String!
+    var hotelAddress :String!
 }
 
 //class TableVc: UITableViewCell {
