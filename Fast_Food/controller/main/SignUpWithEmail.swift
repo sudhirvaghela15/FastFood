@@ -93,13 +93,13 @@ class SignUpWithEmail: UIViewController {
                         self.navigationController?.present(navVc, animated: true)
                         
                     }else{
-                        Toast.makeToast(message: "Password Does not match", controller: self) }
+                        Toast.shared.makeToast(message: "Password Does not match", controller: self) }
                 }else{
-                    Toast.makeToast(message: "Enter Confirm Password", controller: self) }
+                    Toast.shared.makeToast(message: "Enter Confirm Password", controller: self) }
             }else{
-                Toast.makeToast(message: "Enter Password", controller: self) }
+                Toast.shared.makeToast(message: "Enter Password", controller: self) }
         }else{
-            Toast.makeToast(message: "Eneter Email Address", controller: self) }
+            Toast.shared.makeToast(message: "Eneter Email Address", controller: self) }
     }
 //    @objc func tapNav(){
 //        //code for back to first view

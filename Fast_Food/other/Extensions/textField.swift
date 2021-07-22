@@ -8,7 +8,7 @@
 import UIKit
 
 extension UITextField {
-        
+    
     func _Padding(point: Int , direction: String = "Left"){
         if direction == "Left"{
             let padding = UIView(frame: CGRect(x: 0, y: 0, width: point, height: Int(self.frame.size.height)))
@@ -32,8 +32,8 @@ extension UITextField {
             iconBtn.setBackgroundImage(image, for: .normal)
             iconBtn.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             
-//            iconBtn.backgroundColor = UIColor.green
-//            view.backgroundColor = UIColor.gray
+            //            iconBtn.backgroundColor = UIColor.green
+            //            view.backgroundColor = UIColor.gray
             
             view.addSubview(iconBtn)
             self.rightView = view
@@ -43,8 +43,8 @@ extension UITextField {
             
             let view = UIView(frame: CGRect(x: 0, y: 0, width: width + space, height: Int(self.frame.size.height)))
             let iconBtn = UIButton(frame: CGRect(x: space, y: Int(y), width: width, height: height))
-//            iconBtn.backgroundColor = UIColor.green
-//            view.backgroundColor = UIColor.gray
+            //            iconBtn.backgroundColor = UIColor.green
+            //            view.backgroundColor = UIColor.gray
             iconBtn.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             iconBtn.setBackgroundImage(image, for: .normal)
             iconBtn.tintColor = UIColor.black

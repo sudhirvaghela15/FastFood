@@ -4,21 +4,20 @@
 //
 //  Created by sudhir on 06/06/21.
 //
-
-import Foundation
 import UIKit
 
-protocol AlertDelegate: AnyObject {
-    func setDoneHandler()
-    func setCancelHandler()
-}
+//protocol AlertDelegate: AnyObject {
+//    func setDoneHandler()
+//    func setCancelHandler()
+//}
 
-class Alert{
+class Alert {
+//    static weak var delegate: AlertDelegate?
     
-    static weak var delegate: AlertDelegate?
-    static var alert:UIAlertController!
+    static let shared = Alert()
     
-    static func makeAlert(
+     var alert:UIAlertController!
+     func makeAlert(
         title: String,
         message: String? = nil,
         controller: UIViewController
@@ -27,18 +26,19 @@ class Alert{
                                   message: message,
                                   preferredStyle: .alert)
         return alert
+        
     }
     
-    static func alertCancel(buttonTitle: String){
-        
-        alert.addAction(UIAlertAction(title: buttonTitle, style: .cancel, handler: { _ in
-                delegate?.setCancelHandler()
-        }))
-    }
-    static func alertDone(buttonTitle: String){
-        alert.addAction(UIAlertAction(title: buttonTitle, style: .default, handler: { _ in
-                    delegate?.setDoneHandler()
-        }))
-    }
+//    static func alertCancel(buttonTitle: String){
+//        
+//        alert.addAction(UIAlertAction(title: buttonTitle, style: .cancel, handler: { _ in
+//                delegate?.setCancelHandler()
+//        }))
+//    }
+//    static func alertDone(buttonTitle: String){
+//        alert.addAction(UIAlertAction(title: buttonTitle, style: .default, handler: { _ in
+//                    delegate?.setDoneHandler()
+//        }))
+//    }
     
 }

@@ -26,7 +26,7 @@
 		BD6969D826615E6D00AFA3F0 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6969D726615E6D00AFA3F0 /* CartViewController.swift */; };
 		BD96E9A5265F6B690015DF3B /* SideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96E9A4265F6B690015DF3B /* SideBarViewController.swift */; };
 		BD96E9A8265FA4930015DF3B /* SideBarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96E9A7265FA4930015DF3B /* SideBarAnimation.swift */; };
-		BDAA570A2653A70B00AA0CE4 /* Ext_Textfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA57092653A70B00AA0CE4 /* Ext_Textfield.swift */; };
+		BDAA570A2653A70B00AA0CE4 /* textField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA57092653A70B00AA0CE4 /* textField.swift */; };
 		BDADE89A2669E4E700F46568 /* CategorieItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADE8992669E4E700F46568 /* CategorieItems.swift */; };
 		BDCF9F872652F69A00949471 /* SignUpWithEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF9F862652F69A00949471 /* SignUpWithEmail.swift */; };
 		BDCF9F892653024500949471 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF9F882653024500949471 /* LoginVc.swift */; };
@@ -88,7 +88,7 @@
 		BD6969D726615E6D00AFA3F0 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		BD96E9A4265F6B690015DF3B /* SideBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViewController.swift; sourceTree = "<group>"; };
 		BD96E9A7265FA4930015DF3B /* SideBarAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarAnimation.swift; sourceTree = "<group>"; };
-		BDAA57092653A70B00AA0CE4 /* Ext_Textfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext_Textfield.swift; sourceTree = "<group>"; };
+		BDAA57092653A70B00AA0CE4 /* textField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textField.swift; sourceTree = "<group>"; };
 		BDADE8992669E4E700F46568 /* CategorieItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieItems.swift; sourceTree = "<group>"; };
 		BDCF9F862652F69A00949471 /* SignUpWithEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithEmail.swift; sourceTree = "<group>"; };
 		BDCF9F882653024500949471 /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
@@ -245,7 +245,7 @@
 		BDAA57082653A6B000AA0CE4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BDAA57092653A70B00AA0CE4 /* Ext_Textfield.swift */,
+				BDAA57092653A70B00AA0CE4 /* textField.swift */,
 				BD5C501E266D52BA005F32D2 /* Validation.swift */,
 			);
 			path = Extensions;
@@ -499,7 +499,7 @@
 				BD96E9A5265F6B690015DF3B /* SideBarViewController.swift in Sources */,
 				BD5C501F266D52BA005F32D2 /* Validation.swift in Sources */,
 				BDFBD631265512F900515313 /* DashboardViewController.swift in Sources */,
-				BDAA570A2653A70B00AA0CE4 /* Ext_Textfield.swift in Sources */,
+				BDAA570A2653A70B00AA0CE4 /* textField.swift in Sources */,
 				BDE666EF2666A7F7005A9E30 /* FoodCategoriesCell.swift in Sources */,
 				BD6969D826615E6D00AFA3F0 /* CartViewController.swift in Sources */,
 				BDE87A3826601C5F008CF562 /* OrderViewController.swift in Sources */,

@@ -42,11 +42,22 @@ class ViewController: UIViewController {
                 _SignUpWithEmail()
             }else{
 //               
-               let alert = Alert.makeAlert(title: "Tearm and  Condition",message: "Please Accept Tearm and Condition", controller: self)
+                let alert = Alert.shared.makeAlert(title: "Tearm and Condition",message: "Please Accept Tearm and Condition", controller: self)
                 
-                Alert.alertDone(buttonTitle: "Accept")
-                Alert.alertCancel(buttonTitle: "Close")
-                Alert.delegate = self
+                alert.addAction(
+                    UIAlertAction(
+                        title: "Accept", style: .default, handler:{ action in
+                                self.checkboxToggle()
+                                self._SignUpWithEmail()
+                            }
+                    )
+                )
+                alert.addAction(
+                    UIAlertAction(
+                        title: "cancle", style: .cancel, handler: { action in
+                            self.resignFirstResponder()
+                        }
+                    ))
                 self.present(alert, animated: true)
             }
             
@@ -125,15 +136,15 @@ class ViewController: UIViewController {
 //   MARK: SIGN-UP WITH BUTTONS
     private func facebookLogin(){
         checkboxToggle()
-        Toast.makeToast(message: "FaceBook", controller: self)
+        Toast.shared.makeToast(message: "FaceBook", controller: self)
     }
     private func twitterLogin(){
         checkboxToggle()
-        Toast.makeToast(message: "Twitter", controller: self)
+        Toast.shared.makeToast(message: "Twitter", controller: self)
     }
     private func appleLogin(){
         checkboxToggle()
-        Toast.makeToast(message: "apple", controller: self)
+        Toast.shared.makeToast(message: "apple", controller: self)
     }
     
 }
@@ -163,17 +174,5 @@ extension ViewController{
     @objc
     func tapSignIn(){
         _SignIn()
-    }
-}
-
-//MARK: Alert Delegate
-extension ViewController: AlertDelegate{
-    func setDoneHandler() {
-        self.checkboxToggle()
-        self._SignUpWithEmail()
-    }
-    
-    func setCancelHandler() {
-        self.resignFirstResponder()
     }
 }
