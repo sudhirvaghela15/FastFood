@@ -31,6 +31,7 @@ class ViewController: UIViewController {
             view.layer.borderColor = UIColor.systemGray3.cgColor
             view.layer.borderWidth = 3.0
             view.layer.cornerRadius = 45
+           
         }
     
 //    MARK: Action
@@ -75,6 +76,7 @@ class ViewController: UIViewController {
         
         }else if sender.tag == 4 {
             //btn sign
+            print("ss")
             _SignIn()
         }
     }
@@ -85,13 +87,21 @@ class ViewController: UIViewController {
     
     //    MARK: CUSTOM FUNCTIONs
     func _Design(){
-        
+        let fontSize:CGFloat = view.frame.height * 0.0167
         logo.layer.cornerRadius    =
-            logo.frame.size.height / 2
+            logo.frame.size.height * 0.2
         for btn in btns{
             btn.clipsToBounds      = true
             btn.layer.cornerRadius =
                 btn.layer.frame.height * 0.2
+            
+            if btn.tag == 4{
+                print("44")
+                btn.titleLabel?.font = btn.titleLabel?.font.withSize(fontSize)
+            }
+        }
+        [lblSignIn,lblPolicy].forEach{
+            $0.font = lblSignIn.font.withSize(fontSize)
         }
         btnCheckBox.layer.cornerRadius = 5
         btnCheckBox.layer.borderWidth  = 1.0

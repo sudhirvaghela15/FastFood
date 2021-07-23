@@ -9,8 +9,10 @@ import Foundation
 import UIKit
 
 class Toast {
+    
     static let shared = Toast()
     private init() { }
+    
      func makeToast(message: String, controller: UIViewController) {
         
         let toastContainer:UIView = {

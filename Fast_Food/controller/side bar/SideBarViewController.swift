@@ -16,6 +16,13 @@ class SideBarViewController: UIViewController{
     
     weak var delegate :SideBarViewControllerDelegate? //delegate
     
+    let label :UILabel = {
+        let label = UILabel()
+        
+        label.backgroundColor = .darkGray
+        return label
+    }()
+    
     //tableView
     private let tableView1:UITableView = {
         let table = UITableView()
@@ -30,15 +37,22 @@ class SideBarViewController: UIViewController{
         super.viewDidLoad()
         
         tableView1.delegate         = self
-        tableView1.dataSource       = self  
+        tableView1.dataSource       = self
         tableView1.separatorStyle   = .none
         tableView1.backgroundColor  = .black
-        
-        view.addSubview(tableView1)
+//        tableView1.addSubview(label)
+        [tableView1,label].forEach{
+            view.addSubview($0)
+        }
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        tableView1.frame = view.bounds
+      
+//        let hi = CGFloat.random(in: 200...300)
+        let height = 200
+        label.frame = CGRect(x: 0, y: 0, width: Int(tableView1.frame.width), height: height)
+        tableView1.frame = CGRect(x: 0, y: label.frame.height, width: view.frame.width , height: view.frame.height)
+        
 //        CGRect(x: 0, y: 0, width: view.frame.width , height: view.frame.height)
     }
 }

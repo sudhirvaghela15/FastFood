@@ -10,6 +10,11 @@ import UIKit
 class SignUpWithEmail: UIViewController {
 
 //    MARK:- Outlets
+    @IBOutlet weak var lblHello          : UILabel!
+    @IBOutlet weak var lblAmp            : UILabel!
+    @IBOutlet weak var lblwelcome         : UILabel!
+    @IBOutlet weak var txtQuotes         : UITextView!
+    
     @IBOutlet weak var ibEmail           : UITextField!
     @IBOutlet weak var ibPassword        : UITextField!
     @IBOutlet weak var ibConfirmPassword : UITextField!
@@ -43,6 +48,16 @@ class SignUpWithEmail: UIViewController {
         ibConfirmPassword.returnKeyType = .done
     }
     private func _SetUpDesign(){
+        let welcomeTextSize   :CGFloat = view.frame.height *  0.0602
+        let txtQuotesTextSize :CGFloat = view.frame.height * 0.0189
+        [lblwelcome,lblAmp,lblHello].forEach{
+            $0?.font = $0?.font.withSize(welcomeTextSize)
+        }
+        txtQuotes.font = txtQuotes.font?.withSize(txtQuotesTextSize)
+            
+        
+        
+        
 //        ibEmail._Padding(point: 10)
         ibEmail.layer.borderColor            = UIColor.black.cgColor
         ibPassword.layer.borderColor         = UIColor.black.cgColor

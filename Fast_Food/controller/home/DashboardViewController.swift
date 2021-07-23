@@ -15,7 +15,8 @@ class DashboardViewController: UIViewController {
 
     let sideBar      = SideBarViewController()
     let transition   = SideBarAnimation()
-    var topView     : UIView?   //use for tabSwitch
+    var topView     : UIView?
+    
     let data        : [String] = ["donuts","burger","noodel","pasta","pizza","donuts","burger","noodel","pasta","pizza"]
     
     var hotelDetails: [HotelDetails] = []
@@ -35,15 +36,23 @@ class DashboardViewController: UIViewController {
         setArrayHotelList()
         configureNavigationBar()
         configureCustomCell()
+        
         sideBar.delegate  = self  //sideBar Table delegate
         
+        
+        //set SideBar Swipe gesture
         transition.tapGesture = {
             self.sideBar.dismiss(animated: true, completion: nil)
             print("remove sidebar")
         }
+        
+        
+        let rightSwipeGesture = UISwipeGestureRecognizer(
+            target: self,
+            action: #selector(didTapSideBarMenuBtn))
+        rightSwipeGesture.direction = .right //default direction is also right
+        view.addGestureRecognizer(rightSwipeGesture)
     }
-    
-    
     
     private func configureCustomCell(){
         
@@ -87,6 +96,7 @@ class DashboardViewController: UIViewController {
         sideBar.modalPresentationStyle  = .overCurrentContext
         sideBar.transitioningDelegate   = self
         present(sideBar, animated: true)
+        
     }
     @objc
     func didTapCartBtn(){
@@ -141,7 +151,8 @@ class DashboardViewController: UIViewController {
 //MARK: Inner card collectionView( benner )
 extension DashboardViewController:
     UICollectionViewDataSource,
-    UICollectionViewDelegate{
+    UICollectionViewDelegate,
+    UICollectionViewDelegateFlowLayout{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return data.count
@@ -160,6 +171,12 @@ extension DashboardViewController:
         cell.ibImageHolder
             .layer.cornerRadius  = 20
         return cell
+    }
+    
+    
+    //flowLayout delegate
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width:( ibHotelListTable.frame.width) - (ibHotelListTable.frame.width * 0.01) , height: 200)
     }
 }
 
@@ -202,7 +219,9 @@ extension DashboardViewController:
 
             print("home: \(indexPath)")
             let obj  = hotelDetails[indexPath.row]
-            let vc   = UIStoryboard(name: "food_categories", bundle: nil).instantiateViewController(withIdentifier: FoodCategoriesViewController.identifier)
+            let vc   = UIStoryboard(name: "food_categories", bundle: nil)
+                .instantiateViewController(
+                withIdentifier: FoodCategoriesViewController.identifier)
                 as! FoodCategoriesViewController
             vc.title = obj.hotelNama
             navigationController?
@@ -236,12 +255,19 @@ extension DashboardViewController:
         topView?.removeFromSuperview()
         
         guard
-              let account = storyboard?.instantiateViewController(withIdentifier: "AccountViewController")as? AccountViewController ,
+              let account =
+                storyboard?.instantiateViewController(
+                    withIdentifier: "AccountViewController")
+                as? AccountViewController ,
               let review =
-                storyboard?.instantiateViewController(withIdentifier: "OrderViewController")as? OrderViewController ,
-              let settings = storyboard?.instantiateViewController(withIdentifier: "MyFavListViewController")as? MyFavListViewController
+                storyboard?.instantiateViewController(
+                    withIdentifier: "OrderViewController")
+                as? OrderViewController ,
+              let settings =
+                storyboard?.instantiateViewController(
+                    withIdentifier: "MyFavListViewController")
+                as? MyFavListViewController
               else{
-            
             fatalError()
         }
         
@@ -252,7 +278,6 @@ extension DashboardViewController:
            
         case .account:
             print("accout")
-         
             addChild(account)
             topView = account.view
 //            topView?.removeFromSuperview()

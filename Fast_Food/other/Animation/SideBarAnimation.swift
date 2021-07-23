@@ -13,10 +13,12 @@ class SideBarAnimation:NSObject,UIViewControllerAnimatedTransitioning {
     let dimmingView = UIView()
     var tapGesture:(()->Void)?
     
+    //durtion
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return 0.5
+        return 0.4
     }
     
+    //transition
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         
       guard  let to    = transitionContext.viewController(forKey: .to),
@@ -30,12 +32,20 @@ class SideBarAnimation:NSObject,UIViewControllerAnimatedTransitioning {
             
             //add dimming view
             containerView.addSubview(dimmingView)
-            dimmingView.addGestureRecognizer(
-                UITapGestureRecognizer(target: self, action: #selector(didTap))
-            )//set tap gesture
             dimmingView.backgroundColor = .black
             dimmingView.alpha = 0.0
             dimmingView.frame = containerView.bounds
+            
+            //set gesture
+            dimmingView.addGestureRecognizer(
+                UITapGestureRecognizer(target: self, action: #selector(didTap))
+            )//set tap gesture
+            let swipGesture = UISwipeGestureRecognizer(target:self,
+                                                       action:#selector(didTap))
+            swipGesture.direction = .left
+            dimmingView.addGestureRecognizer(swipGesture)
+            
+            
             //add menuviewController to containerview
             containerView.addSubview(to.view)
             

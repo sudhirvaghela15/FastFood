@@ -9,10 +9,15 @@ import UIKit
 
 class LoginVc: UIViewController {
     
-    @IBOutlet weak var ibLoginEmail: UITextField!
-    @IBOutlet weak var ibLoginPassword: UITextField!
-    @IBOutlet weak var ibLoginBtn: UIButton!
-    @IBOutlet weak var ibForgotTap: UILabel!
+    
+    @IBOutlet weak var lblHello         : UILabel!
+    @IBOutlet weak var lblAmp           : UILabel!
+    @IBOutlet weak var lblWelcom        : UILabel!
+    
+    @IBOutlet weak var ibLoginEmail     : UITextField!
+    @IBOutlet weak var ibLoginPassword  : UITextField!
+    @IBOutlet weak var ibLoginBtn       : UIButton!
+    @IBOutlet weak var ibForgotTap      : UILabel!
     @IBAction func LoginBtn(_ sender: UIButton) {
         _Login()
     }
@@ -28,6 +33,10 @@ class LoginVc: UIViewController {
         configureKeyboard()
     }
     private func _SetDesign(){
+        let welcomeTextSize   :CGFloat = view.frame.height *  0.0602
+        [lblWelcom,lblAmp,lblHello].forEach { lbl in
+            lbl.font = lbl.font.withSize(welcomeTextSize)
+        }
         
         ibLoginEmail.layer.cornerRadius     = 10
         ibLoginPassword.layer.cornerRadius  = 10

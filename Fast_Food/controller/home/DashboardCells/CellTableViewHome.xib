@@ -23,15 +23,9 @@
                             <constraint firstAttribute="height" constant="110" id="zzp-Tz-MwG"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hotel Address" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fja-p5-8EX">
-                        <rect key="frame" x="108" y="69" width="83.5" height="16"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hotel Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJv-1S-zTb">
-                        <rect key="frame" x="108" y="5" width="227" height="30"/>
-                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hotel Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tJv-1S-zTb">
+                        <rect key="frame" x="108" y="5" width="235" height="30"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -41,15 +35,20 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5.0" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AGj-Wo-LZ2">
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5.0" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AGj-Wo-LZ2">
                         <rect key="frame" x="353" y="5" width="56" height="30"/>
-                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                         <textInputTraits key="textInputTraits"/>
                     </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hotel Address" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fja-p5-8EX">
+                        <rect key="frame" x="108" y="69" width="83.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="tJv-1S-zTb" firstAttribute="leading" secondItem="ZEM-sI-KSI" secondAttribute="trailing" constant="8" symbolic="YES" id="0cj-Nw-UiX"/>
-                    <constraint firstItem="tJv-1S-zTb" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.548309" id="1ug-J3-jPd"/>
                     <constraint firstAttribute="trailing" secondItem="AGj-Wo-LZ2" secondAttribute="trailing" constant="5" id="3LR-Ul-gZJ"/>
                     <constraint firstItem="fja-p5-8EX" firstAttribute="leading" secondItem="DjS-Ua-zBE" secondAttribute="leading" id="9sD-Uz-7mT"/>
                     <constraint firstItem="AGj-Wo-LZ2" firstAttribute="height" secondItem="tJv-1S-zTb" secondAttribute="height" id="EBv-LE-9Ji"/>
@@ -61,6 +60,7 @@
                     <constraint firstItem="DjS-Ua-zBE" firstAttribute="leading" secondItem="tJv-1S-zTb" secondAttribute="leading" id="bx0-T6-YAE"/>
                     <constraint firstAttribute="bottom" secondItem="ZEM-sI-KSI" secondAttribute="bottom" constant="5" id="c7t-tl-g4w"/>
                     <constraint firstItem="ZEM-sI-KSI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="efM-LC-ZF5"/>
+                    <constraint firstItem="AGj-Wo-LZ2" firstAttribute="leading" relation="lessThanOrEqual" secondItem="tJv-1S-zTb" secondAttribute="trailing" constant="10" id="hQK-tE-PsG"/>
                     <constraint firstItem="tJv-1S-zTb" firstAttribute="top" secondItem="ZEM-sI-KSI" secondAttribute="top" id="pS7-8H-eva"/>
                 </constraints>
             </tableViewCellContentView>
