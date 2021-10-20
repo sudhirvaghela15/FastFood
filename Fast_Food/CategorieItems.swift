@@ -35,6 +35,10 @@ var catagories = [
     Catagories(itemName: "Chinese",
                subItemName: ["ItalianPizza","NormalBurger","spicyBurger","CheesBurger","NormalBurger","spicyBurger","CheesBurger","NormalBurger","spicyBurger"],
                subItmeImage: ["pizza","pizza","pizza","pizza","pizza","pizza","pizza","pizza","pizza"]),
+    
+    Catagories(itemName: "Chinese2",
+               subItemName: ["ItalianPizza2","NormalBurger","spicyBurger","CheesBurger","NormalBurger","spicyBurger","CheesBurger","NormalBurger","spicyBurger"],
+               subItmeImage: ["pizza","pizza","pizza","pizza","pizza","pizza","pizza","pizza","pizza"]),
 ]
 
 

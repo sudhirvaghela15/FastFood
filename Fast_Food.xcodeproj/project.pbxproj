@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD065CF826B70141003AAAF4 /* VCExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD065CF726B70141003AAAF4 /* VCExtention.swift */; };
+		BD065CF826B70141003AAAF4 /* LoderExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD065CF726B70141003AAAF4 /* LoderExtention.swift */; };
 		BD166FB4264A5B39001C0F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166FB3264A5B39001C0F82 /* AppDelegate.swift */; };
 		BD166FB6264A5B39001C0F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166FB5264A5B39001C0F82 /* SceneDelegate.swift */; };
 		BD166FB8264A5B39001C0F82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD166FB7264A5B39001C0F82 /* ViewController.swift */; };
@@ -74,7 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD065CF726B70141003AAAF4 /* VCExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCExtention.swift; sourceTree = "<group>"; };
+		BD065CF726B70141003AAAF4 /* LoderExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoderExtention.swift; sourceTree = "<group>"; };
 		BD166FB0264A5B39001C0F82 /* Fast_Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fast_Food.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD166FB3264A5B39001C0F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD166FB5264A5B39001C0F82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -240,7 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				BDAA57092653A70B00AA0CE4 /* TextFieldExtention.swift */,
-				BD065CF726B70141003AAAF4 /* VCExtention.swift */,
+				BD065CF726B70141003AAAF4 /* LoderExtention.swift */,
 				BD5C501E266D52BA005F32D2 /* StringExtention.swift */,
 			);
 			path = CommonExtention;
@@ -580,7 +580,7 @@
 				BDAA570A2653A70B00AA0CE4 /* TextFieldExtention.swift in Sources */,
 				BDE666EF2666A7F7005A9E30 /* FoodCategoriesCell.swift in Sources */,
 				BD6969D826615E6D00AFA3F0 /* CartViewController.swift in Sources */,
-				BD065CF826B70141003AAAF4 /* VCExtention.swift in Sources */,
+				BD065CF826B70141003AAAF4 /* LoderExtention.swift in Sources */,
 				BD478C6926B932030099A272 /* LoginValidatiion.swift in Sources */,
 				BDE87A3826601C5F008CF562 /* OrderViewController.swift in Sources */,
 				BDE666EB26669957005A9E30 /* FoodCategoriesViewController.swift in Sources */,
